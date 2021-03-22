@@ -1,0 +1,169 @@
+section.hero {
+  height: 90vh;
+  width: auto;
+  background-image: url("img/hero-image.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+section.hero svg {
+  position: absolute;
+  bottom: 0;
+}
+
+section.hero h1 {
+  text-align: center;
+  line-height: 80vh;
+}
+
+section.hero span {
+  display: inline-block;
+}
+
+section.intro {
+  margin-bottom: 150px;
+}
+
+section.intro .intro {
+  height: 250px;
+}
+
+section.intro .intro #beach {
+  background-image: url(img/intro/beach.jpg);
+  background-size: cover;
+}
+
+section.intro .intro #room {
+  background-image: url(img/intro/room.jpg);
+  background-size: cover;
+}
+
+section.intro .intro #restaurant {
+  background-image: url(img/intro/restaurant.jpg);
+  background-size: cover;
+}
+
+section.intro .intro #more {
+  background-image: url(img/intro/more.jpg);
+  background-size: cover;
+}
+
+section.intro .intro .intro-item {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  line-height: 150px;
+  text-align: center;
+}
+
+section.intro .intro .intro-item p {
+  display: none;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+section.intro .intro .intro-item:hover {
+  width: 160px;
+  height: 160px;
+  -webkit-filter: grayscale(0.9);
+          filter: grayscale(0.9);
+}
+
+section.intro .intro .intro-item:hover p {
+  display: block;
+}
+
+section.promotion {
+  background-color: black;
+}
+
+section.promotion .promotion {
+  background-image: url(img/promo-picture.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+
+section.promotion .promotion .black-button {
+  width: 100%;
+  height: 300px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer li a {
+  text-decoration: none;
+}
+
+.gallery {
+  display: none;
+}
+
+.gallery .card {
+  text-align: center;
+}
+
+.gallery .card img {
+  width: 380px;
+  height: 500px;
+}
+
+.gallery .gallery-item {
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery img {
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+}
+
+.gallery img#expensive-room-image {
+  height: 500px;
+}
+
+@media (max-width: 1200px) {
+  section.intro {
+    padding-bottom: 100px;
+  }
+  section.intro .intro .intro-item {
+    margin: 10px;
+  }
+  section.promotion .promotion {
+    background-image: url(img/promo-picture2.jpg);
+  }
+  section.promotion .black-button {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  section.intro {
+    padding-bottom: 400px;
+  }
+  section.intro .intro .intro-item {
+    margin: 10px;
+  }
+  section.promotion .promotion {
+    background-image: url(img/promo-picture2.jpg);
+  }
+  section.promotion .black-button {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
