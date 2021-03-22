@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html section.jumbotron .jumbotron,
+body section.jumbotron .jumbotron {
+  background-image: url("img/jumboimg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+html section.jumbotron .jumbotron h1,
+body section.jumbotron .jumbotron h1 {
+  color: white;
+  font-size: 120px;
+  padding: 130px 180px 150px;
+  font-family: "Bangers", cursive;
+}
+
+html section.jumbotron .jumbotron h1 span,
+body section.jumbotron .jumbotron h1 span {
+  padding-left: 70px;
+}
+
+html section.jumbotron .jumbotron img,
+body section.jumbotron .jumbotron img {
+  height: 450px;
+  width: 550px;
+  z-index: 1;
+  margin-top: -580px;
+  margin-left: 70px;
+}
+
+html section.display-p,
+body section.display-p {
+  width: 100%;
+  min-height: 400px;
+}
+
+html section.display-p .dp-slider-container ul.dpitem-list,
+body section.display-p .dp-slider-container ul.dpitem-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+}
+
+html section.display-p .dp-slider-container ul.dpitem-list .dpitem img,
+body section.display-p .dp-slider-container ul.dpitem-list .dpitem img {
+  width: 150px;
+  height: 150px;
+}
+
+html section.display-p .dp-slider-container ul.dpitem-list li.dpitem,
+body section.display-p .dp-slider-container ul.dpitem-list li.dpitem {
+  margin: 20px;
+}
+
+html section.discount-p,
+body section.discount-p {
+  width: 100%;
+  height: 800px;
+  background-image: url("img/discount-p.jpeg");
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+html section.list-p,
+body section.list-p {
+  padding-bottom: 130px;
+}
+
+html section.footer,
+body section.footer {
+  width: 100%;
+  height: 75px;
+}
+/*# sourceMappingURL=style.css.map */

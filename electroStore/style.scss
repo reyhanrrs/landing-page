@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap"); //font-family: 'Bangers', cursive;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  // Jumbotron Section
+  section.jumbotron {
+    .jumbotron {
+      background-image: url("img/jumboimg.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 80vh;
+      h1 {
+        color: white;
+        font-size: 120px;
+        padding: 130px 180px 150px;
+        font-family: "Bangers", cursive;
+        span {
+          padding-left: 70px;
+        }
+      }
+      // staring fallll fff65e
+      img {
+        height: 450px;
+        width: 550px;
+        z-index: 1;
+        margin-top: -580px;
+        margin-left: 70px;
+      }
+    }
+  }
+
+  // Display Product Section
+  section.display-p {
+    width: 100%;
+    min-height: 400px;
+    // background-color: red;
+    .dp-slider-container {
+      // background-color: yellow;
+      ul.dpitem-list {
+        // background-color: blue;
+        display: inline-flex;
+        list-style: none;
+        .dpitem {
+          // background-color: green;
+          img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+        li.dpitem {
+          // background-color: gray;
+          margin: 20px;
+        }
+      }
+    }
+  }
+
+  section.discount-p {
+    width: 100%;
+    height: 800px;
+    background-image: url("img/discount-p.jpeg");
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  section.list-p {
+    padding-bottom: 130px;
+  }
+
+  section.footer {
+    width: 100%;
+    height: 75px;
+  }
+}
